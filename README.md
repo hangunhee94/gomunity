@@ -36,6 +36,12 @@
 >사용자는 주니어 개발자들의 개발에 대한 질문들을 알아볼 수 있고, 알고있는 것에 대하여 답을 줄 수 있습니다.      
 >개발 공부를 하면서 알게된 꼭 나와 같은 초보들에게 공유하고 싶은 팁을 게시하는 자료게시판 또한 있어    
 >누구나 초보였던 시절에 불편했던 일들을 해결했던 자료를 공유하여 쉽게 찾을 수 있는 레퍼런스가 되기를 희망합니다.   
+- 회원가입,로그인(비회원 게시글 조회가능)
+- JWT 토큰 활용
+- 게시판 CRUD
+- 답글 CRUD
+- 게시글,답변 좋아요
+- 검색 기능
 
 ### 3.1. 아키텍쳐   
 ![image](https://user-images.githubusercontent.com/97969957/185283041-45f4504d-e797-4714-9d7e-058568c20f8d.png) 
@@ -60,6 +66,10 @@
   - 질의응답 게시글/답글/좋아요 모델
   - 자료게시판 게시글/답글/카테고리/좋아요 모델
 <br>
+
+### 3.2. API
+![gomunity_API2](https://user-images.githubusercontent.com/104430302/188550496-76188520-505f-4f0c-84d3-0f743fec82c3.png)
+![gomunity_API](https://user-images.githubusercontent.com/104430302/188550510-bcc7af6d-fada-4176-b736-0a70a895c0ab.png)
 
 <details>
 <summary><b> Service Flow</b></summary>  
